@@ -1,7 +1,33 @@
 [
   {
     "id": "1",
-    "name": "Categoría 1",
+    "name": "Preparación para el hospital",
+    "iconUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw",
+    "articles": [
+      {
+        "id": "1",
+        "title": "Artículo 1",
+        "content": "Este es un artículo de prueba",
+        "imageUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "¡Ya viene!",
+    "iconUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw",
+    "articles": [
+      {
+        "id": "1",
+        "title": "Artículo 1",
+        "content": "Este es un artículo de prueba",
+        "imageUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Los primeros días",
     "iconUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw",
     "articles": [
       {
