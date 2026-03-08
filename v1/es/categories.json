@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1",
+    "name": "Categoría 1",
+    "iconUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw",
+    "articles": [
+      {
+        "id": "1",
+        "title": "Artículo 1",
+        "content": "Este es un artículo de prueba",
+        "imageUrl": "https://fastly.picsum.photos/id/866/400/300.jpg?hmac=JMubLT0llOloTrCSJIptm4kmT13cmWrNcdbpI9vJwmw"
+      }
+    ]
+  }
+]
