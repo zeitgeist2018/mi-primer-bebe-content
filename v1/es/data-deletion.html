@@ -28,6 +28,12 @@
         ul {
             margin-bottom: 15px;
         }
+        .warning-box {
+            background-color: #fff4e5;
+            border-left: 5px solid #ffa117;
+            padding: 15px;
+            margin: 20px 0;
+        }
         .footer {
             margin-top: 50px;
             font-size: 0.9em;
@@ -38,54 +44,50 @@
             color: #3498db;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
 
-    <h1>Instrucciones para la Eliminación de Datos</h1>
+<h1>Instrucciones para la Eliminación de Datos</h1>
 
-    <p>En <strong>Mi Bebé: Lactancia y Diario</strong>, respetamos su derecho a la privacidad y a controlar sus datos personales. A continuación, detallamos qué información almacenamos y cómo puede solicitar su eliminación definitiva.</p>
+<p>En <strong>Mi Bebé: Lactancia y Diario</strong>, garantizamos su derecho al olvido y la eliminación de su información personal de acuerdo con las normativas de protección de datos.</p>
 
-    <h2>1. ¿Qué datos almacenamos?</h2>
-    <p>Para proporcionar una experiencia personalizada, almacenamos los siguientes datos:</p>
-    <ul>
-        <li><strong>Información de la cuenta:</strong> Nombre y dirección de correo electrónico.</li>
-        <li><strong>Información del bebé:</strong> Nombre, fecha y lugar de nacimiento, peso y talla al nacer y sexo (si fueron proporcionados).</li>
-        <li><strong>Listas:</strong> Listas de tareas (si fueron proporcionados).</li>
-        <li><strong>Fotografías:</strong> Fotografías del bebé y de los padres (si fueron proporcionadas).</li>
-        <li><strong>Datos médicos del bebé:</strong> Datos médicos del bebé (si fueron proporcionados).</li>
-        <li><strong>Eventos de calendario:</strong> Eventos de calendario relacionados con el bebé (si fueron proporcionados).</li>
-        <li><strong>Preferencias:</strong> Ajustes de configuración dentro de la aplicación.</li>
-    </ul>
+<h2>1. ¿Qué datos se eliminan definitivamente?</h2>
+<p>Al solicitar la eliminación, borraremos de nuestros servidores activos (Firebase):</p>
+<ul>
+    <li>Su perfil de usuario (nombre y correo electrónico).</li>
+    <li>Todos los registros del bebé: lactancia, sueño, peso, talla y datos médicos.</li>
+    <li>Fotografías, listas de tareas y eventos de calendario sincronizados.</li>
+    <li>Configuraciones y preferencias personalizadas.</li>
+</ul>
 
-    <h2>2. Periodo de retención</h2>
-    <p>Conservamos sus datos personales únicamente mientras su cuenta esté activa o sea necesario para proporcionarle los servicios de la aplicación.</p>
-    <p>Si la cuenta permanece inactiva por un periodo superior a 24 meses, nos reservamos el derecho de eliminar los datos asociados de forma automática, a menos que la ley exija lo contrario.</p>
+<div class="warning-box">
+    <strong>Nota sobre Suscripciones Premium:</strong> La eliminación de su cuenta en la aplicación <strong>NO cancela automáticamente su suscripción activa en Google Play</strong>. Debido a que los pagos son gestionados por Google, usted debe cancelar la suscripción desde la Play Store para evitar futuros cargos.
+</div>
 
-    <h2>3. Cómo solicitar la eliminación de sus datos</h2>
-    <p>Si desea eliminar su cuenta y todos los datos asociados de forma permanente, puede hacerlo de las siguientes maneras:</p>
+<h2>2. Datos gestionados por terceros</h2>
+<p>Para la correcta gestión del servicio, ciertos datos técnicos se tratan de la siguiente manera tras la eliminación:</p>
+<ul>
+    <li><strong>RevenueCat:</strong> El historial de transacciones se mantiene de forma anonimizada para fines de cumplimiento legal y contable, pero queda desvinculado de su identidad personal.</li>
+    <li><strong>Firebase Analytics:</strong> Los datos de uso previo permanecen en informes estadísticos agregados que no permiten identificar al usuario individualmente.</li>
+</ul>
 
-    <h3>A. Desde la aplicación</h3>
-    <p>Vaya a la sección de <strong>Perfil</strong> o <strong>Ajustes</strong> y busque la opción "Eliminar Cuenta". Siga las instrucciones en pantalla para confirmar la acción.</p>
+<h2>3. Procedimiento de eliminación</h2>
 
-    <h3>B. Por correo electrónico</h3>
-    <p>Envíe una solicitud desde la dirección de correo electrónico asociada a su cuenta a:</p>
-    <p><a href="mailto:wolfappsdevelopment@gmail.com">wolfappsdevelopment@gmail.com</a></p>
-    <p>Por favor, incluya en el asunto: "Solicitud de Eliminación de Datos". Procesaremos su solicitud en un plazo máximo de 30 días hábiles.</p>
+<h3>A. Eliminación Automática (Recomendado)</h3>
+<p>Dentro de la aplicación, acceda a <strong>Ajustes > Eliminar Cuenta</strong>. Este proceso es inmediato e irreversible.</p>
 
-    <h2>4. Consecuencias de la eliminación</h2>
-    <p>Tenga en cuenta que una vez procesada la eliminación:</p>
-    <ul>
-        <li>Toda su información personal y los datos del bebé serán borrados permanentemente de nuestros servidores.</li>
-        <li>No podrá recuperar el acceso a su cuenta ni a los registros guardados anteriormente.</li>
-    </ul>
+<h3>B. Solicitud Manual</h3>
+<p>Si no tiene acceso a la aplicación, envíe un correo desde la dirección asociada a su cuenta a:</p>
+<p><a href="mailto:wolfappsdevelopment@gmail.com">wolfappsdevelopment@gmail.com</a></p>
+<p>Asunto: "Solicitud de Eliminación de Datos". Procesaremos la baja manual de todos los servicios asociados en un plazo máximo de 30 días.</p>
 
-    <div class="footer">
-        &copy; 2026 Mi Bebé: Lactancia y Diario. Todos los derechos reservados.
-    </div>
+<h2>4. Retención por Inactividad</h2>
+<p>Si la cuenta no registra actividad en un periodo de 24 meses, el sistema podrá proceder a la eliminación automática de los datos para garantizar la seguridad de la información antigua.</p>
+
+<div class="footer">
+    &copy; 2026 Mi Bebé: Lactancia y Diario. Desarrollado por Wolf Apps Development.
+</div>
 
 </body>
 </html>
