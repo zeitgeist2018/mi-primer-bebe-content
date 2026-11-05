@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - Seguimiento Bebé y Lactancia</title>
+    <title>Política de Privacidad - Recién nacido: Tomas y Sueño</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,16 +43,18 @@
 
 <h1>Política de Privacidad</h1>
 
-<p>Última actualización: 15 de Abril de 2026</p>
+<p>Última actualización: 5 de noviembre de 2026</p>
 
-<p>En <strong>Seguimiento Bebé y Lactancia</strong>, valoramos su privacidad. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos su información, incluyendo los datos relacionados con suscripciones premium y análisis de uso.</p>
+<p>En <strong>Recién nacido: Tomas y Sueño</strong>, valoramos su privacidad. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos su información, incluyendo los datos relacionados con suscripciones premium y análisis de uso.</p>
 
 <h2>1. Información que recopilamos</h2>
 <p>Recopilamos información que usted nos proporciona directamente y datos generados automáticamente por el uso de la aplicación:</p>
 <ul>
-    <li><strong>Datos de usuario y bebé:</strong> Nombre, correo, fecha de nacimiento, género y registros de salud/actividad.</li>
+    <li><strong>Datos de usuario y bebé:</strong> Nombre, correo, fecha y lugar de nacimiento, género y registros de salud/actividad (tomas, pañales, sueño, crecimiento, alimentación complementaria e hitos).</li>
+    <li><strong>Datos de la cuenta:</strong> Identificador de usuario y, según el método que elija, su cuenta de Google o una cuenta de invitado. Los datos de una cuenta familiar se comparten con las personas que usted invite a ella.</li>
+    <li><strong>Mensajes de sugerencias y errores:</strong> El texto que usted nos envía desde la aplicación, junto con su identificador de usuario y la fecha.</li>
     <li><strong>Datos de suscripción:</strong> Estado de la suscripción, historial de compras y un identificador de usuario anónimo para gestionar el acceso premium.</li>
-    <li><strong>Datos técnicos:</strong> Identificadores de dispositivo, modelo de hardware y versión del sistema operativo.</li>
+    <li><strong>Datos técnicos:</strong> Identificadores de dispositivo, modelo de hardware, versión del sistema operativo y origen de la instalación (Google Play Install Referrer).</li>
 </ul>
 
 <h2>2. Suscripciones y Pagos</h2>
@@ -63,52 +65,58 @@
     <p><strong>RevenueCat (RevenueCat, Inc.):</strong> Utilizamos esta herramienta para gestionar y validar el estado de su suscripción. RevenueCat recibe un identificador anónimo y los detalles del recibo de compra para asegurar que las funciones premium estén activas en su dispositivo. Puede consultar su política en <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a>.</p>
 </div>
 
-<h2>3. Análisis de Datos (Firebase Analytics)</h2>
-<p>Utilizamos <strong>Firebase Analytics</strong> (proporcionado por Google) para entender cómo los usuarios interactúan con la aplicación y mejorar su funcionamiento. Estos datos se recopilan de forma agregada y seudónima.</p>
+<h2>3. Análisis de Datos y Seguridad (Firebase)</h2>
+<p>Utilizamos <strong>Firebase Analytics</strong> y <strong>Firebase Crashlytics</strong> (proporcionados por Google) para entender cómo los usuarios interactúan con la aplicación y mejorar su funcionamiento. Estos datos se recopilan de forma agregada y seudónima. También usamos <strong>Firebase App Check</strong> (Play Integrity) para comprobar que las solicitudes al servidor proceden de la aplicación original.</p>
 <ul>
-    <li><strong>Finalidad:</strong> Medir el rendimiento de la app, identificar errores (crash reporting) y analizar qué funciones son las más utilizadas.</li>
+    <li><strong>Finalidad:</strong> Medir el rendimiento de la app, identificar errores (crash reporting), analizar qué funciones son las más utilizadas y proteger el servicio frente a usos indebidos.</li>
     <li><strong>Datos recopilados:</strong> Número de usuarios y sesiones, duración de la sesión, modelos de dispositivos y ubicación geográfica aproximada (país/ciudad).</li>
     <li>Si desea inhabilitar esta recopilación, puede hacerlo desde los ajustes de privacidad de su dispositivo móvil.</li>
 </ul>
 
-<h2>4. ¿Qué datos almacenamos?</h2>
-<p>Para proporcionar una experiencia personalizada, almacenamos los siguientes datos:</p>
+<h2>4. Cámara, fotos y notificaciones</h2>
 <ul>
-    <li><strong>Información de la cuenta:</strong> Nombre y dirección de correo electrónico.</li>
-    <li><strong>Información del bebé:</strong> Nombre, fecha y lugar de nacimiento, género y datos de seguimiento (alimentación, sueño, etc.).</li>
-    <li><strong>Contenido multimedia:</strong> Fotografías del bebé y de los padres (si fueron proporcionadas).</li>
-    <li><strong>Datos médicos y calendario:</strong> Registros médicos y eventos relacionados con el bebé.</li>
-    <li><strong>Estado de suscripción:</strong> Registros técnicos para validar su acceso al programa premium.</li>
+    <li><strong>Herramienta «¿A quién se parece?»:</strong> La aplicación solicita acceso a la cámara únicamente para esta herramienta; también puede elegir fotos de su galería. Las fotos se analizan <strong>en su propio dispositivo</strong> con un modelo de detección facial incluido en la aplicación (ML Kit). <strong>No se envían a nuestros servidores ni a terceros, y no se guardan</strong>: ni las fotos ni las medidas de las caras se conservan al cerrar la herramienta.</li>
+    <li><strong>Imagen para compartir:</strong> El resultado se genera en su dispositivo y solo sale de él si usted decide compartirlo con otra aplicación. Esa imagen incluye los retratos usados, así que compártala solo con quien desee.</li>
+    <li><strong>Notificaciones y alarmas:</strong> La aplicación puede mostrar recordatorios en su dispositivo. Son opcionales y puede desactivarlos en los ajustes del sistema.</li>
 </ul>
 
-<h2>5. Periodo de retención</h2>
+<h2>5. ¿Qué datos almacenamos?</h2>
+<p>Para proporcionar una experiencia personalizada, almacenamos los siguientes datos en nuestros servidores (Firebase):</p>
+<ul>
+    <li><strong>Información de la cuenta:</strong> Nombre, dirección de correo electrónico e identificador de usuario.</li>
+    <li><strong>Información del bebé:</strong> Nombre, fecha y lugar de nacimiento, género y datos de seguimiento (alimentación, sueño, etc.).</li>
+    <li><strong>Datos médicos y calendario:</strong> Registros médicos y eventos relacionados con el bebé.</li>
+    <li><strong>Mensajes de sugerencias y errores</strong> que usted envíe.</li>
+    <li><strong>Estado de suscripción:</strong> Registros técnicos para validar su acceso al programa premium.</li>
+</ul>
+<p>La aplicación <strong>no almacena fotografías</strong> del bebé ni de los padres en nuestros servidores.</p>
+
+<h2>6. Periodo de retención</h2>
 <p>Conservamos sus datos personales únicamente mientras su cuenta esté activa o sea necesario para proporcionarle los servicios de la aplicación y gestionar sus suscripciones activas.</p>
 <p>Si la cuenta permanece inactiva por un periodo superior a 24 meses, nos reservamos el derecho de eliminar los datos asociados de forma automática, a menos que existan obligaciones legales de conservación (como registros de transacciones financieras).</p>
 
-<h2>6. Cómo solicitar la eliminación de sus datos</h2>
+<h2>7. Cómo solicitar la eliminación de sus datos</h2>
 <p>Puede eliminar su cuenta y datos asociados de forma permanente:</p>
-
 <h3>A. Desde la aplicación</h3>
-<p>Vaya a <strong>Ajustes</strong> > "Eliminar Cuenta". Nota: Eliminar la cuenta no cancela automáticamente la suscripción de Google Play; esto debe hacerse desde la tienda de aplicaciones.</p>
-
+<p>Abra el menú lateral y pulse "Eliminar mi cuenta". La solicitud queda registrada y la eliminación se ejecuta en un plazo máximo de <strong>30 días naturales</strong>; mientras tanto puede cancelarla desde la propia aplicación. La eliminación afecta a la cuenta familiar completa y a los datos de todos sus miembros. <em>Nota: Eliminar la cuenta no cancela automáticamente la suscripción de Google Play; esto debe hacerse desde la tienda de aplicaciones.</em></p>
 <h3>B. Por correo electrónico</h3>
-<p>Envíe un correo a <a href="mailto:wolfappsdevelopment@gmail.com">wolfappsdevelopment@gmail.com</a> con el asunto "Solicitud de Eliminación de Datos".</p>
+<p>Envíe un correo a <a href="mailto:wolfappsdevelopment@gmail.com">wolfappsdevelopment@gmail.com</a> con el asunto "Solicitud de Eliminación de Datos". Consulte los detalles en nuestra página de instrucciones de eliminación de datos.</p>
 
-<h2>7. Protección de datos</h2>
+<h2>8. Protección de datos</h2>
 <p>Implementamos medidas de seguridad técnicas y organizativas para proteger sus datos contra el acceso no autorizado. Los datos de pago están protegidos por el cifrado estándar de la industria de Google Play.</p>
 
-<h2>8. Sus derechos</h2>
+<h2>9. Sus derechos</h2>
 <p>Usted tiene derecho a acceder, rectificar o eliminar sus datos personales. Al ser una aplicación con servicios de suscripción, también tiene derecho a recibir un historial de sus transacciones a través de las plataformas de Google.</p>
 
-<h2>9. Cambios a esta política</h2>
+<h2>10. Cambios a esta política</h2>
 <p>Nos reservamos el derecho de actualizar esta Política de Privacidad para reflejar cambios en nuestros servicios o por motivos legales. Le notificaremos cualquier cambio sustancial a través de la aplicación.</p>
 
-<h2>10. Contacto</h2>
+<h2>11. Contacto</h2>
 <p>Para cualquier duda sobre su privacidad o el manejo de sus suscripciones, contáctenos en:</p>
 <p><a href="mailto:wolfappsdevelopment@gmail.com">wolfappsdevelopment@gmail.com</a></p>
 
 <div class="footer">
-    &copy; 2026 Seguimiento Bebé y Lactancia. Todos los derechos reservados.
+    &copy; 2026 Recién nacido: Tomas y Sueño. Todos los derechos reservados.
 </div>
 
 </body>
